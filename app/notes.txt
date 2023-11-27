@@ -1,0 +1,2 @@
+.kv file name should be same as class name in the main code. In our case it is main_code.py
+The colour codes haa to be normalized i.e x/255

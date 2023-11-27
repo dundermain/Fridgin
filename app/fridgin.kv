@@ -1,0 +1,26 @@
+<MyRoot>:
+
+    random_number:  random_number_id
+
+    BoxLayout:
+
+        orientation: 'vertical'
+
+        Label:
+            text: "Fridgin!"
+            font_size: 64
+            color: 0.92, 0.45, 0
+
+        Label:
+            id: random_number_id
+            text: "-"
+            font_size: 64
+
+        Button:
+            text: "Let's fridgin go!"
+            font_size: 32
+            size: 100, 50
+            on_press: root.gen_random_number()
+
+
+
